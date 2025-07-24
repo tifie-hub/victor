@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Victor's Bright Nursery and Primary School - Raising Future Generals!</title>
+    <meta name="description" content="Victor's Bright Nursery and Primary School in Nateete, Uganda. Excellence in education with sports, music, and dance programs.">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>Victor's Bright</h2>
+                <span>Nursery & Primary School</span>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#academics" class="nav-link">Academics</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#programs" class="nav-link">Programs</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#gallery" class="nav-link">Gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <button class="apply-btn" onclick="openApplicationForm()">Apply Now</button>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-slider">
+            <div class="slide active">
+                <img src="images/victors1 (1).jpeg" alt="School Activities">
+                <div class="slide-content">
+                    <h1>Welcome to Victor's Bright</h1>
+                    <h2>Nursery and Primary School</h2>
+                    <p>Raising Future Generals!</p>
+                    <div class="hero-buttons">
+                        <button class="btn-primary" onclick="openApplicationForm()">Apply Now</button>
+                        <button class="btn-secondary" onclick="scrollToSection('about')">Learn More</button>
+                    </div>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="images/victors1 (2).jpeg" alt="Classroom Learning">
+                <div class="slide-content">
+                    <h1>Excellence in Education</h1>
+                    <p>Nurturing minds, building character, shaping futures</p>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="images/victors1 (3).jpeg" alt="Sports Activities">
+                <div class="slide-content">
+                    <h1>Sports & Activities</h1>
+                    <p>Developing well-rounded individuals through sports and arts</p>
+                </div>
+            </div>
+        </div>
+        <div class="slider-controls">
+            <button class="prev-btn"><i class="fas fa-chevron-left"></i></button>
+            <button class="next-btn"><i class="fas fa-chevron-right"></i></button>
+        </div>
+        <div class="slider-dots"></div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Us</h2>
+            <div class="about-grid">
+                <div class="about-card" data-aos="fade-up">
+                    <div class="card-icon">
+                        <i class="fas fa-bullseye"></i>
+                    </div>
+                    <h3>Our Mission</h3>
+                    <p>To provide quality education that nurtures academic excellence, character development, and leadership skills in a supportive and inclusive environment.</p>
+                </div>
+                <div class="about-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="card-icon">
+                        <i class="fas fa-eye"></i>
+                    </div>
+                    <h3>Our Vision</h3>
+                    <p>To be the leading educational institution that produces well-rounded, confident, and successful future leaders of Uganda and beyond.</p>
+                </div>
+                <div class="about-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="card-icon">
+                        <i class="fas fa-quote-left"></i>
+                    </div>
+                    <h3>Our Motto</h3>
+                    <p>"Raising Future Generals!" - Empowering students to become leaders in their communities and beyond.</p>
+                </div>
+            </div>
+
+            <div class="values-section">
+                <h3>Our Core Values</h3>
+                <div class="values-grid">
+                    <div class="value-item" data-aos="zoom-in">
+                        <i class="fas fa-graduation-cap"></i>
+                        <h4>Excellence</h4>
+                        <p>Striving for the highest standards in everything we do</p>
+                    </div>
+                    <div class="value-item" data-aos="zoom-in" data-aos-delay="100">
+                        <i class="fas fa-heart"></i>
+                        <h4>Integrity</h4>
+                        <p>Building character through honesty and moral principles</p>
+                    </div>
+                    <div class="value-item" data-aos="zoom-in" data-aos-delay="200">
+                        <i class="fas fa-users"></i>
+                        <h4>Community</h4>
+                        <p>Fostering a sense of belonging and mutual respect</p>
+                    </div>
+                    <div class="value-item" data-aos="zoom-in" data-aos-delay="300">
+                        <i class="fas fa-lightbulb"></i>
+                        <h4>Innovation</h4>
+                        <p>Encouraging creativity and critical thinking</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Academics Section -->
+    <section id="academics" class="academics">
+        <div class="container">
+            <h2 class="section-title">Academic Excellence</h2>
+            <div class="academics-content">
+                <div class="academics-text" data-aos="fade-right">
+                    <h3>Outstanding Results</h3>
+                    <p>Our students consistently achieve excellent results in national examinations, with many securing places in top secondary schools across Uganda.</p>
+                    <div class="achievements">
+                        <div class="achievement-item">
+                            <span class="number">95%</span>
+                            <span class="label">Pass Rate</span>
+                        </div>
+                        <div class="achievement-item">
+                            <span class="number">100+</span>
+                            <span class="label">Top School Placements</span>
+                        </div>
+                        <div class="achievement-item">
+                            <span class="number">15+</span>
+                            <span class="label">Years of Excellence</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="curriculum" data-aos="fade-left">
+                    <h3>Our Curriculum</h3>
+                    <div class="curriculum-levels">
+                        <div class="level">
+                            <h4>Nursery Section</h4>
+                            <ul>
+                                <li>Early Childhood Development</li>
+                                <li>Play-based Learning</li>
+                                <li>Social Skills Development</li>
+                                <li>Basic Literacy & Numeracy</li>
+                            </ul>
+                        </div>
+                        <div class="level">
+                            <h4>Primary Section</h4>
+                            <ul>
+                                <li>Core Subjects (English, Math, Science)</li>
+                                <li>Social Studies & Religious Education</li>
+                                <li>Physical Education & Sports</li>
+                                <li>Creative Arts & Music</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Programs Section -->
+    <section id="programs" class="programs">
+        <div class="container">
+            <h2 class="section-title">Our Programs</h2>
+            <div class="programs-grid">
+                <div class="program-card" data-aos="fade-up">
+                    <div class="program-image">
+                        <img src="images/victors1 (4).jpeg" alt="Sports Program">
+                    </div>
+                    <div class="program-content">
+                        <h3><i class="fas fa-futbol"></i> Sports Program</h3>
+                        <p>Our comprehensive sports program includes football, athletics, swimming, and other competitive sports. We have won numerous trophies and championships.</p>
+                        <ul>
+                            <li>Professional coaching</li>
+                            <li>Inter-school competitions</li>
+                            <li>Physical fitness development</li>
+                            <li>Team building skills</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="program-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="program-image">
+                        <img src="images/victors1 (5).jpeg" alt="Music & Dance">
+                    </div>
+                    <div class="program-content">
+                        <h3><i class="fas fa-music"></i> Music & Dance</h3>
+                        <p>We nurture artistic talents through our music and dance programs, featuring traditional and modern performances.</p>
+                        <ul>
+                            <li>Traditional dance classes</li>
+                            <li>Music instrument training</li>
+                            <li>Performance opportunities</li>
+                            <li>Cultural appreciation</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <h2 class="section-title">Gallery</h2>
+            <div class="gallery-filters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="sports">Sports</button>
+                <button class="filter-btn" data-filter="events">Events</button>
+                <button class="filter-btn" data-filter="classrooms">Classrooms</button>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item" data-category="sports">
+                    <img src="images/victors6.jpeg" alt="Sports Activity">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="events">
+                    <img src="images/victors7.jpeg" alt="School Event">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="classrooms">
+                    <img src="images/victors8.jpeg" alt="Classroom">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="sports">
+                    <img src="images/victors9.jpeg" alt="Sports Team">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="events">
+                    <img src="images/victors10.jpeg" alt="School Performance">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="classrooms">
+                    <img src="images/victors11.jpeg" alt="Learning Environment">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <div class="container">
+            <h2 class="section-title">What Parents Say</h2>
+            <div class="testimonials-slider">
+                <div class="testimonial active">
+                    <div class="testimonial-content">
+                        <p>"Victor's Bright has transformed my child's learning experience. The teachers are dedicated and the academic results speak for themselves."</p>
+                        <div class="testimonial-author">
+                            <h4>Sarah Nalukenge</h4>
+                            <span>Parent of Primary 6 Student</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <div class="testimonial-content">
+                        <p>"The sports program is excellent! My child has developed confidence and leadership skills through team sports."</p>
+                        <div class="testimonial-author">
+                            <h4>John Muwonge</h4>
+                            <span>Parent of Primary 5 Student</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <div class="testimonial-content">
+                        <p>"The school's focus on character development alongside academics is what makes it special. Highly recommended!"</p>
+                        <div class="testimonial-author">
+                            <h4>Grace Nakimera</h4>
+                            <span>Parent of Nursery Student</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-controls">
+                <button class="prev-testimonial"><i class="fas fa-chevron-left"></i></button>
+                <button class="next-testimonial"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Contact Us</h2>
+            <div class="contact-content">
+                <div class="contact-info" data-aos="fade-right">
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Location</h4>
+                            <p>Masaka Road, Nateete<br>Kampala, Uganda</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Phone</h4>
+                            <p>+256 700 000 000<br>+256 800 000 000</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>info@victorsbright.ac.ug<br>admissions@victorsbright.ac.ug</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h4>School Hours</h4>
+                            <p>Monday - Friday: 7:00 AM - 5:00 PM<br>Saturday: 8:00 AM - 1:00 PM</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-map" data-aos="fade-left">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.7534!2d32.4853!3d0.3476!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMMKwMjAnNTQuMCJOIDMywrAyOScxMi4wIkU!5e0!3m2!1sen!2sug!4v1234567890"
+                        width="100%" 
+                        height="300" 
+                        style="border:0;" 
+                        allowfullscreen="" 
+                        loading="lazy">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Victor's Bright</h3>
+                    <p>Nursery and Primary School</p>
+                    <p>Raising Future Generals!</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#academics">Academics</a></li>
+                        <li><a href="#programs">Programs</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <p>Masaka Road, Nateete</p>
+                    <p>Kampala, Uganda</p>
+                    <p>Phone: +256 700 000 000</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Victor's Bright Nursery and Primary School. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Application Form Modal -->
+    <div id="applicationModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Student Application Form</h2>
+            <form id="applicationForm" class="application-form">
+                <div class="form-group">
+                    <label for="studentFirstName">Student's First Name *</label>
+                    <input type="text" id="studentFirstName" name="studentFirstName" required>
+                </div>
+                <div class="form-group">
+                    <label for="studentLastName">Student's Last Name *</label>
+                    <input type="text" id="studentLastName" name="studentLastName" required>
+                </div>
+                <div class="form-group">
+                    <label for="parentName">Parent/Guardian Name *</label>
+                    <input type="text" id="parentName" name="parentName" required>
+                </div>
+                <div class="form-group">
+                    <label for="parentPhone">Parent/Guardian Phone *</label>
+                    <input type="tel" id="parentPhone" name="parentPhone" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email Address *</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="dateOfBirth">Date of Birth *</label>
+                    <input type="date" id="dateOfBirth" name="dateOfBirth" required>
+                </div>
+                <div class="form-group">
+                    <label for="classApplying">Class Applying For *</label>
+                    <select id="classApplying" name="classApplying" required>
+                        <option value="">Select Class</option>
+                        <option value="nursery">Nursery</option>
+                        <option value="primary1">Primary 1</option>
+                        <option value="primary2">Primary 2</option>
+                        <option value="primary3">Primary 3</option>
+                        <option value="primary4">Primary 4</option>
+                        <option value="primary5">Primary 5</option>
+                        <option value="primary6">Primary 6</option>
+                        <option value="primary7">Primary 7</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="birthCertificate">Birth Certificate</label>
+                    <input type="file" id="birthCertificate" name="birthCertificate" accept=".pdf,.jpg,.jpeg,.png">
+                </div>
+                <div class="form-group">
+                    <label for="reportCard">Previous Report Card (if applicable)</label>
+                    <input type="file" id="reportCard" name="reportCard" accept=".pdf,.jpg,.jpeg,.png">
+                </div>
+                <div class="form-group">
+                    <button type="submit" class="submit-btn">Submit Application</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Lightbox for Gallery -->
+    <div id="lightbox" class="lightbox">
+        <span class="lightbox-close">&times;</span>
+        <img id="lightbox-img" src="" alt="">
+        <div class="lightbox-nav">
+            <button class="lightbox-prev"><i class="fas fa-chevron-left"></i></button>
+            <button class="lightbox-next"><i class="fas fa-chevron-right"></i></button>
+        </div>
+    </div>
+
+    <!-- Back to Top Button -->
+    <button id="backToTop" class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html> 

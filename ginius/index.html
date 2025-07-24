@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Victor's Bright Nursery and Primary School - Raising Future Generals</title>
+    <meta name="description" content="Victor's Bright Nursery and Primary School provides holistic education, producing productive and responsible citizens. Apply now for quality education.">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>Victor's Bright</h2>
+                <span>Nursery & Primary School</span>
+            </div>
+            
+            <div class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About Us</a>
+                <div class="nav-dropdown">
+                    <a href="#academics" class="nav-link">Academics <i class="fas fa-chevron-down"></i></a>
+                    <div class="dropdown-content">
+                        <a href="#nursery">Nursery</a>
+                        <a href="#primary">Primary</a>
+                        <a href="#curriculum">Curriculum</a>
+                    </div>
+                </div>
+                <a href="#sports" class="nav-link">Sports</a>
+                <a href="#music-dance" class="nav-link">Music & Dance</a>
+                <a href="#gallery" class="nav-link">Gallery</a>
+                <a href="#contact" class="nav-link">Contact</a>
+                <a href="#apply" class="nav-link apply-btn">Apply Now</a>
+            </div>
+            
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-slideshow">
+            <div class="slide active">
+                <img src="images/home1.jpeg" alt="Students in classroom">
+                <div class="slide-overlay">
+                    <div class="hero-content" data-aos="fade-up">
+                        <h1>Welcome to Victor's Bright Nursery and Primary School</h1>
+                        <h2>Raising Future Generals</h2>
+                        <p>Providing holistic education that produces productive and responsible citizens</p>
+                        <a href="#apply" class="cta-button">Apply Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="images/victors1 (1).jpeg" alt="Students learning">
+                <div class="slide-overlay">
+                    <div class="hero-content">
+                        <h1>Excellence in Education</h1>
+                        <h2>Building Strong Foundations</h2>
+                        <p>Nurturing young minds with quality education and character development</p>
+                        <a href="#apply" class="cta-button">Apply Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="images/victors1 (2).jpeg" alt="School activities">
+                <div class="slide-overlay">
+                    <div class="hero-content">
+                        <h1>Holistic Development</h1>
+                        <h2>Academic Excellence & Character</h2>
+                        <p>Comprehensive education focusing on academics, sports, and arts</p>
+                        <a href="#apply" class="cta-button">Apply Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="slide-controls">
+            <button class="slide-btn active" data-slide="0"></button>
+            <button class="slide-btn" data-slide="1"></button>
+            <button class="slide-btn" data-slide="2"></button>
+        </div>
+    </section>
+
+    <!-- Quick Intro Section -->
+    <section class="quick-intro">
+        <div class="container">
+            <div class="intro-content" data-aos="fade-up">
+                <h2>Our Mission</h2>
+                <p class="mission-statement">To provide holistic education, producing productive and responsible citizens.</p>
+                
+                <div class="intro-cards">
+                    <div class="intro-card" data-aos="fade-up" data-aos-delay="100">
+                        <i class="fas fa-graduation-cap"></i>
+                        <h3>Academics</h3>
+                        <p>Excellence in learning with 98% pass rate to top secondary schools</p>
+                        <a href="#academics" class="card-link">Learn More</a>
+                    </div>
+                    
+                    <div class="intro-card" data-aos="fade-up" data-aos-delay="200">
+                        <i class="fas fa-futbol"></i>
+                        <h3>Sports</h3>
+                        <p>Physical development through various sports activities and competitions</p>
+                        <a href="#sports" class="card-link">Learn More</a>
+                    </div>
+                    
+                    <div class="intro-card" data-aos="fade-up" data-aos-delay="300">
+                        <i class="fas fa-music"></i>
+                        <h3>Music & Dance</h3>
+                        <p>Creative expression through music, dance, and performing arts</p>
+                        <a href="#music-dance" class="card-link">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Core Values Section -->
+    <section class="core-values">
+        <div class="container">
+            <h2 data-aos="fade-up">Our Core Values</h2>
+            <div class="values-grid">
+                <div class="value-card" data-aos="fade-up" data-aos-delay="100">
+                    <i class="fas fa-shield-alt"></i>
+                    <h3>Integrity</h3>
+                    <p>Upholding moral and ethical principles in all our actions</p>
+                </div>
+                
+                <div class="value-card" data-aos="fade-up" data-aos-delay="150">
+                    <i class="fas fa-star"></i>
+                    <h3>Excellence</h3>
+                    <p>Striving for the highest standards in everything we do</p>
+                </div>
+                
+                <div class="value-card" data-aos="fade-up" data-aos-delay="200">
+                    <i class="fas fa-hands-helping"></i>
+                    <h3>Respect</h3>
+                    <p>Valuing diversity and treating everyone with dignity</p>
+                </div>
+                
+                <div class="value-card" data-aos="fade-up" data-aos-delay="250">
+                    <i class="fas fa-lightbulb"></i>
+                    <h3>Innovation</h3>
+                    <p>Embracing creativity and new approaches to learning</p>
+                </div>
+                
+                <div class="value-card" data-aos="fade-up" data-aos-delay="300">
+                    <i class="fas fa-users"></i>
+                    <h3>Collaboration</h3>
+                    <p>Working together to achieve common goals</p>
+                </div>
+                
+                <div class="value-card" data-aos="fade-up" data-aos-delay="350">
+                    <i class="fas fa-heart"></i>
+                    <h3>Compassion</h3>
+                    <p>Showing care and empathy towards others</p>
+                </div>
+                
+                <div class="value-card" data-aos="fade-up" data-aos-delay="400">
+                    <i class="fas fa-balance-scale"></i>
+                    <h3>Responsibility</h3>
+                    <p>Taking ownership of our actions and decisions</p>
+                </div>
+                
+                <div class="value-card" data-aos="fade-up" data-aos-delay="450">
+                    <i class="fas fa-seedling"></i>
+                    <h3>Growth</h3>
+                    <p>Continuous learning and personal development</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Programs Overview -->
+    <section id="academics" class="programs">
+        <div class="container">
+            <h2 data-aos="fade-up">Our Programs</h2>
+            
+            <!-- Academics Section -->
+            <div class="program-section" data-aos="fade-up">
+                <div class="program-content">
+                    <div class="program-text">
+                        <h3><i class="fas fa-graduation-cap"></i> Academics</h3>
+                        <p>Our comprehensive academic program is designed to provide students with a strong foundation for lifelong learning. We focus on critical thinking, problem-solving, and creative expression.</p>
+                        <div class="stats">
+                            <div class="stat">
+                                <span class="stat-number">98%</span>
+                                <span class="stat-label">Pass Rate</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-number">15:1</span>
+                                <span class="stat-label">Student-Teacher Ratio</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-number">100%</span>
+                                <span class="stat-label">Graduation Rate</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="program-image">
+                        <img src="images/victors1 (3).jpeg" alt="Academic excellence">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Sports Section -->
+            <div id="sports" class="program-section reverse" data-aos="fade-up">
+                <div class="program-content">
+                    <div class="program-image">
+                        <img src="images/victors1 (4).jpeg" alt="Sports activities">
+                    </div>
+                    <div class="program-text">
+                        <h3><i class="fas fa-futbol"></i> Sports</h3>
+                        <p>Physical education and sports play a vital role in our holistic development approach. We offer various sports activities including football, athletics, swimming, and more.</p>
+                        <div class="achievements">
+                            <h4>Recent Achievements:</h4>
+                            <ul>
+                                <li>District Football Champions 2023</li>
+                                <li>Regional Athletics Winners</li>
+                                <li>Swimming Competition Excellence</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Music & Dance Section -->
+            <div id="music-dance" class="program-section" data-aos="fade-up">
+                <div class="program-content">
+                    <div class="program-text">
+                        <h3><i class="fas fa-music"></i> Music & Dance</h3>
+                        <p>Our performing arts program nurtures creativity and self-expression through music, dance, and drama. Students participate in various performances and competitions.</p>
+                        <div class="performances">
+                            <h4>Performance Opportunities:</h4>
+                            <ul>
+                                <li>Annual School Concert</li>
+                                <li>Cultural Dance Competitions</li>
+                                <li>Music Festival Participation</li>
+                                <li>Drama Productions</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="program-image">
+                        <img src="images/victors1 (5).jpeg" alt="Music and dance">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <h2 data-aos="fade-up">School Gallery</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item" data-aos="zoom-in" data-aos-delay="100">
+                    <img src="images/victors1 (7).jpeg" alt="School activities">
+                </div>
+                <div class="gallery-item" data-aos="zoom-in" data-aos-delay="150">
+                    <img src="images/victors6.jpeg" alt="Students learning">
+                </div>
+                <div class="gallery-item" data-aos="zoom-in" data-aos-delay="200">
+                    <img src="images/victors7.jpeg" alt="Classroom activities">
+                </div>
+                <div class="gallery-item" data-aos="zoom-in" data-aos-delay="250">
+                    <img src="images/victors8.jpeg" alt="School events">
+                </div>
+                <div class="gallery-item" data-aos="zoom-in" data-aos-delay="300">
+                    <img src="images/victors9.jpeg" alt="Student achievements">
+                </div>
+                <div class="gallery-item" data-aos="zoom-in" data-aos-delay="350">
+                    <img src="images/victors10.jpeg" alt="School facilities">
+                </div>
+                <div class="gallery-item" data-aos="zoom-in" data-aos-delay="400">
+                    <img src="images/victors11.jpeg" alt="Learning environment">
+                </div>
+                <div class="gallery-item" data-aos="zoom-in" data-aos-delay="450">
+                    <img src="images/victors12.jpeg" alt="School community">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Application Form Section -->
+    <section id="apply" class="application-form">
+        <div class="container">
+            <div class="form-container" data-aos="fade-up">
+                <div class="form-header">
+                    <h2>Apply for Admission</h2>
+                    <p>Join Victor's Bright Nursery and Primary School today. Fill out the form below to begin your child's educational journey.</p>
+                </div>
+                
+                <form id="admissionForm" class="admission-form">
+                    <div class="form-group">
+                        <label for="studentFirstName">Student's First Name *</label>
+                        <input type="text" id="studentFirstName" name="studentFirstName" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="studentLastName">Student's Last Name *</label>
+                        <input type="text" id="studentLastName" name="studentLastName" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="parentName">Parent/Guardian Name *</label>
+                        <input type="text" id="parentName" name="parentName" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="parentPhone">Parent's Phone Number *</label>
+                        <input type="tel" id="parentPhone" name="parentPhone" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="parentEmail">Parent's Email Address *</label>
+                        <input type="email" id="parentEmail" name="parentEmail" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="gradeLevel">Grade Applying For *</label>
+                        <select id="gradeLevel" name="gradeLevel" required>
+                            <option value="">Select Grade Level</option>
+                            <optgroup label="Nursery">
+                                <option value="nursery-1">Nursery 1</option>
+                                <option value="nursery-2">Nursery 2</option>
+                                <option value="nursery-3">Nursery 3</option>
+                            </optgroup>
+                            <optgroup label="Primary">
+                                <option value="primary-1">Primary 1</option>
+                                <option value="primary-2">Primary 2</option>
+                                <option value="primary-3">Primary 3</option>
+                                <option value="primary-4">Primary 4</option>
+                                <option value="primary-5">Primary 5</option>
+                                <option value="primary-6">Primary 6</option>
+                                <option value="primary-7">Primary 7</option>
+                            </optgroup>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message">Additional Information</label>
+                        <textarea id="message" name="message" rows="4" placeholder="Any additional information you'd like to share..."></textarea>
+                    </div>
+                    
+                    <button type="submit" class="submit-btn">
+                        <span class="btn-text">Submit Application</span>
+                        <span class="btn-loading">
+                            <i class="fas fa-spinner fa-spin"></i> Processing...
+                        </span>
+                    </button>
+                </form>
+                
+                <div id="formSuccess" class="form-success" style="display: none;">
+                    <i class="fas fa-check-circle"></i>
+                    <h3>Application Submitted Successfully!</h3>
+                    <p>Thank you for your interest in Victor's Bright Nursery and Primary School. We have received your application and will contact you within 48 hours.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="about-us">
+        <div class="container">
+            <div class="about-content" data-aos="fade-up">
+                <div class="about-text">
+                    <h2>About Victor's Bright</h2>
+                    <p>Victor's Bright Nursery and Primary School is committed to providing quality education that nurtures the whole child. Our dedicated teachers and staff work together to create a supportive learning environment where every child can thrive.</p>
+                    
+                    <div class="about-features">
+                        <div class="feature">
+                            <i class="fas fa-child"></i>
+                            <div>
+                                <h4>Child-Centered Learning</h4>
+                                <p>Our curriculum is designed around the needs and interests of each child.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="feature">
+                            <i class="fas fa-chalkboard-teacher"></i>
+                            <div>
+                                <h4>Experienced Teachers</h4>
+                                <p>Our qualified and experienced teachers are passionate about education.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="feature">
+                            <i class="fas fa-home"></i>
+                            <div>
+                                <h4>Safe Environment</h4>
+                                <p>We provide a secure and nurturing environment for all our students.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="about-image">
+                    <img src="images/victors1 (8).jpeg" alt="About Victor's Bright">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 data-aos="fade-up">Contact Us</h2>
+            <div class="contact-content">
+                <div class="contact-info" data-aos="fade-up">
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Address</h4>
+                            <p>Victor's Bright Nursery and Primary School<br>
+                            [School Address]<br>
+                            Uganda</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Phone</h4>
+                            <p><a href="tel:+256XXXXXXXXX">+256 XXX XXX XXX</a></p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p><a href="mailto:info@victorsbrightschool.com">info@victorsbrightschool.com</a></p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h4>School Hours</h4>
+                            <p>Monday - Friday: 7:30 AM - 4:30 PM<br>
+                            Saturday: 8:00 AM - 12:00 PM</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-map" data-aos="fade-up">
+                    <div class="map-placeholder">
+                        <i class="fas fa-map"></i>
+                        <p>Interactive Map Coming Soon</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Victor's Bright</h3>
+                    <p>Nursery and Primary School</p>
+                    <p class="footer-mission">Raising Future Generals through holistic education.</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#academics">Academics</a></li>
+                        <li><a href="#sports">Sports</a></li>
+                        <li><a href="#music-dance">Music & Dance</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <p><i class="fas fa-phone"></i> +256 XXX XXX XXX</p>
+                    <p><i class="fas fa-envelope"></i> info@victorsbrightschool.com</p>
+                    <p><i class="fas fa-map-marker-alt"></i> [School Address], Uganda</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 Victor's Bright Nursery and Primary School. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- AOS Animation Library -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    
+    <!-- Custom JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html> 
