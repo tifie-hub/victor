@@ -1161,3 +1161,10 @@ html {
 .donate-btn:hover {
     background-color: #e6b800;
 }
+.donate-row {
+    display: flex;
+    align-items: center;       /* vertical alignment */
+    justify-content: center;   /* center horizontally */
+    gap: 20px;                 /* space between QR and button */
+    margin: 15px 0;
+}
