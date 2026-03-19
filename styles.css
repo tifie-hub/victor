@@ -1158,3 +1158,6 @@ section {
 html {
     scroll-behavior: smooth;
 } 
+.donate-btn:hover {
+    background-color: #e6b800;
+}
